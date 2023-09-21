@@ -37,7 +37,9 @@ Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal be
     - buka file wireshark yang sudah di download
     - pasang display filter ```(ip.src == 239.255.255.250 or ip.dst == 239.255.255.250) and udp.port == 3702``` untuk memfilter IP source ataupun destination berdasarkan port yang diinginkan.
     - hitung banyaknya paket yang telah difilter
-- Screenshoot 
+- Screenshoot
+  ![Alt text](modul1_image/no3.png)
+  ![Alt text](modul1_image/no3_ubuntu.png)
 - Kendala
   </br>Bingung cara membuat 2 kondisi filter yaitu mendapatkan IP dan filter port, sehingga waktu itu saya hanya memfilter IP adrresnya dan menghitung manual port dengan melihat pada detail paketnya:)
 
@@ -45,7 +47,9 @@ Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal be
 - Cara Pengerjaan
   - masih berada di paket yang sama dan pada filter yang sama
   - lihat protocol apa yang digunakan pada IP addres 239.255.255.250 port 3702
-- Screenshoot 
+- Screenshoot
+  ![Alt text](modul1_image/no3.png)
+  ![Alt text](modul1_image/no3_ubuntu.png)
 - Kendala
   </b>tidak ada
 
@@ -57,7 +61,9 @@ Berapa nilai checksum yang didapat dari header pada paket nomor 130?
   - Cari paket dengan nomor 130
   - Klik 2 kali pada paket, nanti akan muncul detai paketnya
   - Cari nilai  checksumnya pada bagian ```user diagram protocol```
-- Screenshoot 
+- Screenshoot
+  ![Alt text](modul1_image/no4.png)
+  ![Alt text](modul1_image/no4_ubuntu.png)
 - Kendala
   </br>Agak susah dalam mencari checksumnya pada detail paket
 
@@ -94,7 +100,9 @@ Berapa jumlah packet yang menuju IP 184.87.193.88?
   - Buka paket yang telah di download sesuai soal
   - Terapkan display filter ```ip.dst``` untuk menyaring paket yang menuju ke IP 184.87.193.88 
   - Lalu lihat jumlah paket yang telah difilter pada bagian bawah jendela Wireshark.
-- Screenshoot 
+- Screenshoot
+  ![Alt text](modul1_image/no7.png)
+  ![Alt text](modul1_image/no7_ubuntu.png)
 - Kendala
   </br>tidak ada
 
@@ -104,7 +112,8 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
   - Mencari filter yang sesuai dengan kondisi yang diminta
   - Dengan filter ```tcp.dstport == 80 || udp.dstport == 80``` Wireshark akan menampilkan semua paket yang menuju ke port 80, baik menggunakan protokol TCP atau UDP.
   - Jika ada lebih dari satu port 80 yang muncul dalam paket yang sedang ditangkap, Wireshark akan menampilkan semuanya dan akan mengurutkannya secara alfanumerik (sesuai abjad).
-- Screenshoot 
+- Screenshoot
+  ![Alt text](modul1_image/no8.png)
 - Kendala
   </br>Tidak ada
 
