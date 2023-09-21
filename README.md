@@ -34,20 +34,32 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 ### a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
 - Cara Pengerjaan
+    - buka file wireshark yang sudah di download
+    - pasang display filter ```(ip.src == 239.255.255.250 or ip.dst == 239.255.255.250) and udp.port == 3702``` untuk memfilter IP source ataupun destination berdasarkan port yang diinginkan.
+    - hitung banyaknya paket yang telah difilter
 - Screenshoot 
 - Kendala
+  </br>Bingung cara membuat 2 kondisi filter yaitu mendapatkan IP dan filter port, sehingga waktu itu saya hanya memfilter IP adrresnya dan menghitung manual port dengan melihat pada detail paketnya:)
 
 ### b. Protokol layer transport apa yang digunakan?
 - Cara Pengerjaan
+  - masih berada di paket yang sama dan pada filter yang sama
+  - lihat protocol apa yang digunakan pada IP addres 239.255.255.250 port 3702
 - Screenshoot 
 - Kendala
+  </b>tidak ada
 
 
 ## Soal 4
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 - Cara Pengerjaan
+  - Buka file wireshark yang sudah di download
+  - Cari paket dengan nomor 130
+  - Klik 2 kali pada paket, nanti akan muncul detai paketnya
+  - Cari nilai  checksumnya pada bagian ```user diagram protocol```
 - Screenshoot 
 - Kendala
+  </br>Agak susah dalam mencari checksumnya pada detail paket
 
 
 ## Soal 5
@@ -79,15 +91,22 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 ## Soal 7
 Berapa jumlah packet yang menuju IP 184.87.193.88?
 - Cara Pengerjaan
+  - Buka paket yang telah di download sesuai soal
+  - Terapkan display filter ```ip.dst``` untuk menyaring paket yang menuju ke IP 184.87.193.88 
+  - Lalu lihat jumlah paket yang telah difilter pada bagian bawah jendela Wireshark.
 - Screenshoot 
 - Kendala
-
+  </br>tidak ada
 
 ## Soal 8
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
 - Cara Pengerjaan
+  - Mencari filter yang sesuai dengan kondisi yang diminta
+  - Dengan filter ```tcp.dstport == 80 || udp.dstport == 80``` Wireshark akan menampilkan semua paket yang menuju ke port 80, baik menggunakan protokol TCP atau UDP.
+  - Jika ada lebih dari satu port 80 yang muncul dalam paket yang sedang ditangkap, Wireshark akan menampilkan semuanya dan akan mengurutkannya secara alfanumerik (sesuai abjad).
 - Screenshoot 
 - Kendala
+  </br>Tidak ada
 
 
 ## Soal 9
