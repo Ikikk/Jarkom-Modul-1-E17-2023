@@ -90,8 +90,16 @@ Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk men
 ## Soal 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan **"server SOURCE ADDRESS 7812 is invalid"**. ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
 - Cara Pengerjaan
-- Screenshoot 
+  - Buka file wireshark yang sudah di download
+  - Cari nomor paket yang diinginkan yaitu 7812
+  - Copy IP source address paket tersebut
+  - Buka website A1Z26 untuk men-decrypt IP address nya
+  - Setelah itu akan muncul code resultnya, pilih yang A=1
+- Screenshoot
+  ![Alt text](modul1_image/no6.png)
+  ![Alt text](modul1_image/no6_a1z26.png)
 - Kendala
+  kurang mengerti apa yang dimaksudkan soal tersebut, sehingga kelompok kami tidak solve no6 waktu praktikum
 
 
 ## Soal 7
