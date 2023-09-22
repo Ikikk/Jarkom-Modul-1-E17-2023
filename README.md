@@ -99,7 +99,7 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
   ![Alt text](modul1_image/no6.png)
   ![Alt text](modul1_image/no6_a1z26.png)
 - Kendala
-  kurang mengerti apa yang dimaksudkan soal tersebut, sehingga kelompok kami tidak solve no6 waktu praktikum
+  </br>kurang mengerti apa yang dimaksudkan soal tersebut, sehingga kelompok kami tidak solve no6 waktu praktikum
 
 
 ## Soal 7
