@@ -9,8 +9,8 @@ User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya
     - Kemudian lihat di poin Transmission Control Protocol di kolom Packet Detail. Kemudian lihat di bagian Sequence number (raw)
     - Ambil angkanya kemudian masukkan di terminal
 - Screenshoot 
-    ![Alt text](image.png)
-    ![Alt text](image-4.png)
+    ![Alt text](images/image.png)
+    ![Alt text](images/image-4.png)
 - Kendala
     </br>Clue yg diberikan hanya melakukan berbagai aktivitas, jadi saya pikir itu bentuk salah satu command yang bakal kepake di beberapa paket. Tapi karena paketnya sedikit dan mudah untuk dicek satu-satu, akhirnya saya menemukan paket yang berbeda
 
@@ -20,8 +20,8 @@ User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya
     - Lihat acknowledge number (raw) di baris selanjutnya
     - Ambil angkanya kemudian masukkan di terminal
 - Screenshoot 
-    ![Alt text](image-1.png)
-    ![Alt text](image-5.png)
+    ![Alt text](images/image-1.png)
+    ![Alt text](images/image-5.png)
 - Kendala
     </br> tidak ada
 
@@ -33,8 +33,8 @@ User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya
     - Lihat sequence number (raw) di Packet Detail
     - Ambil angkanya kemudian masukkan di terminal
 - Screenshoot 
-    ![Alt text](image-2.png)
-    ![Alt text](image-6.png)
+    ![Alt text](images/image-2.png)
+    ![Alt text](images/image-6.png)
 - Kendala
    </br> Tidak ada 
 
@@ -44,8 +44,8 @@ User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya
     - Lihat acknowledge number (raw) di baris selanjutnya
     - Ambil angkanya kemudian masukkan di terminal
 - Screenshoot 
-    ![Alt text](image-3.png)
-    ![Alt text](image-7.png)
+    ![Alt text](images/image-3.png)
+    ![Alt text](images/image-7.png)
 - Kendala
     </br> Tidak ada 
 
@@ -58,8 +58,8 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
     - Cari Server di kolom Hypertext Transfer Protocol di bagian Packet Details
     - Masukkan Web Server ke dalam terminal
 - Screenshoot 
-    ![Alt text](image-8.png)
-    ![Alt text](image-9.png)
+    ![Alt text](images/image-8.png)
+    ![Alt text](images/image-9.png)
 - Kendala
     </br> Tidak Ada
 
@@ -115,8 +115,8 @@ Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk men
     - Kembali ke aplikasi Wireshark. Kemudian lihat total paket di pojok kanan bawah
     - Masukkan angka tersebut ke dalam terminal
 - Screenshoot 
-    ![Alt text](image-11.png)
-    ![Alt text](image-10.png)
+    ![Alt text](images/image-11.png)
+    ![Alt text](images/image-10.png)
 - Kendala
     </br>
 
@@ -126,8 +126,8 @@ Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk men
     - Lihat ```Destination Port``` di kolom Transmission Control Protocol
     - Masukkan angka tersebut ke dalam terminal
 - Screenshoot 
-    ![Alt text](image-13.png)
-    ![Alt text](image-12.png)
+    ![Alt text](images/image-13.png)
+    ![Alt text](images/image-12.png)
 - Kendala
     </br> Tidak ada
 
@@ -137,8 +137,8 @@ Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk men
     - Lihat ```Destination Address``` di kolom ```Internet Protocol Version 4```
     - Masukkan address ke dalam terminal
 - Screenshoot
-    ![Alt text](image-15.png)
-    ![Alt text](image-14.png)
+    ![Alt text](images/image-15.png)
+    ![Alt text](images/image-14.png)
 - Kendala
     </br> Tidak ada
 
@@ -188,8 +188,8 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
     - Mengambil paket yang berasal dari alamat 10.51.40.1 berarti kueri yang terbentuk adalah ```ip.src == 10.51.40.1```
     - Tetapi tidak menuju ke alamat 10.39.55.34, berarti menggunakan ip destination selain alamat 10.39.55.34 dengan ip source yang sama. Hasil kueri yang terbentu adalah ```ip.src == 10.51.40.1 && ip.dst != 10.39.55.34```
 - Screenshoot 
-    ![Alt text](image-16.png)
-    ![Alt text](image-17.png)
+    ![Alt text](images/image-16.png)
+    ![Alt text](images/image-17.png)
 - Kendala
     </br> Tidak ada
 
@@ -202,8 +202,7 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
     - Cari tulisan Login beserta Passwordnya
     - Untuk Usernamenya, ikuti warna dari tulisan login. Karena tulisan loginnya berwarna biru, maka huruf yang dipakai adalah huruf yang berwarna biru
 - Screenshoot 
-    ![Alt text](image-18.png)
-    ![Alt text](image-19.png)
+    ![Alt text](images/image-18.png)
+    ![Alt text](images/image-19.png)
 - Kendala
     </br> Diawal saya kesulitan karena pada username terdapat huruf yang dobel, sehingga ketika saya mencoba masukkan ke dalam terminal ternyata tidak bisa. Lalu saya menyadari kalau disitu ada 2 jenis warna, jadi saya mencoba memakai salah satu warna dan kemudian bisa:)
-
